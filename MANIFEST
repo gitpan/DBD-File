@@ -3,4 +3,4 @@ File.pm
 MANIFEST
 Makefile.PL
 README
-
+t/use.t

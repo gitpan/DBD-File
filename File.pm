@@ -35,7 +35,7 @@ use vars qw(@ISA $VERSION $drh $err $errstr $sqlstate);
 
 @ISA = qw(DynaLoader);
 
-$VERSION = '0.21';  # SECOND JZ CHANGES (cached parser, optional)
+$VERSION = '0.22';      #
 
 $err = 0;		# holds error code   for DBI::err
 $errstr = "";		# holds error string for DBI::errstr
