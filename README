@@ -1,5 +1,1 @@
-README FILE FOR MODULE DBD::File
-
-This module is currently not directly usable, rather it is a base subclass for modules like DBD::CSV and DBD::AnyData.  See documentation for those modules.
-
-If you want to subclass DBD::File for purposes of making a Pure Perl DBD, write me <jeff@vpservices.com> because I'm making some changes to DBD::File to make it easier to subclass.
+The modules DBD::File and DBI::SQL::Nano are part of the DBI distribution.  This distribution is merely a copy of the latest versions of the modules from that distribution.  They are made available separately from DBI because some other modules (DBD::CSV, etc.) depend on these modules and users may wish to upgrade those modules without upgrading DBI.

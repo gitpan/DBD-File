@@ -1,6 +1,7 @@
 Changes
-File.pm
 MANIFEST
 Makefile.PL
 README
-t/use.t
+lib/DBD/File.pm
+lib/DBI/SQL/Nano.pm
+t/00base.t
