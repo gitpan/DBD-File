@@ -1,0 +1,5 @@
+README FILE FOR MODULE DBD::File
+
+This module is currently not directly usable, rather it is a base subclass for modules like DBD::CSV and DBD::AnyData.  See documentation for those modules.
+
+If you want to subclass DBD::File for purposes of making a Pure Perl DBD, write me <jeff@vpservices.com> because I'm making some changes to DBD::File to make it easier to subclass.

@@ -1,0 +1,9 @@
+=head1 NAME
+
+DBD::File::Changes - Change Log for module DBD::File
+
+=head1 Changes in v. 0.21, 24 October 2003
+
+ fixed prepare() so check for cached-parser doesn't fail if DBD can't cache
+ normalized version number to two decimal places
+ placed DBD::File on CPAN separately from DBD::CSV for the first time
