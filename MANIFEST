@@ -3,5 +3,5 @@ MANIFEST
 Makefile.PL
 README
 lib/DBD/File.pm
-lib/DBI/SQL/Nano.pm
 t/00base.t
+META.yml                                 Module meta-data (added by MakeMaker)

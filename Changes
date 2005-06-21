@@ -1,3 +1,8 @@
+version 0.33, 20 June, 2005
+----------------------------
+* removed DBI::SQL::Nano from this distro
+* added DBI 1.42 as a prereq
+
 version 0.33, 28 March, 2005
 ----------------------------
 * first upload separate from DBI distribution

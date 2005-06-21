@@ -8,6 +8,7 @@ require ExtUtils::MakeMaker;
 my %opts =
   ( 'NAME' => 'DBD::File',
     'VERSION_FROM' => 'lib/DBD/File.pm',
+    'PREREQ_PM'    => { 'DBI'         => '1.42', },
     'dist'         => { 'SUFFIX'       => ".gz",
 			'DIST_DEFAULT' => 'all tardist',
 			'COMPRESS'     => "gzip -9vf" }
